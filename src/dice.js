@@ -3,6 +3,7 @@
  */
 function rollDice(){
   //to be implemented
+  return 0;
 }
 
 
@@ -11,6 +12,7 @@ function rollDice(){
  */
 function rollSmallDice(){
   //to be implemented
+  return 0;
 }
 
 
@@ -19,6 +21,7 @@ function rollSmallDice(){
  */
 function movementRoll(){
   //to be implemented
+  return 0;
 }
 
 /**
@@ -26,4 +29,9 @@ function movementRoll(){
  */
 function attackRoll(){
   //to be implemented
+  return 0;
+}
+
+module.exports = {
+  rollDice, rollSmallDice, movementRoll, attackRoll
 }
